@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+ 
+ 
+    background: url(../images/bg.jpg) no-repeat fixed center 0;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+ 
+}
+ 
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 560px;
+    padding: 40px;
+    background: rgba(16, 17, 19, 0.58);
+    box-sizing: border-box;
+    box-shadow: 0 10px 25px rgb(16, 17, 19);
+    border-radius: 10px;
+}
+ 
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+}
+ 
+.login-box .login-field {
+    position: relative;
+}
+ 
+.login-box .login-field input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background: transparent;
+}
+ 
+.login-box .login-field label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+    pointer-events: none;
+    transition: .5s;
+}
+ 
+.login-box .login-field input:focus ~ label,
+.login-box .login-field input:valid ~ label {
+    top: -23px;
+    left: 0;
+    color: aqua;
+    font-size: 12px;
+}
+ 
+.login-box button {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+ 
+}
+.login-box  input {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+ 
+}
+#myloginlabel{
+        position: relative;
+ 
+        background-color: rgb(3, 168, 243);
+        border: 1px solid rgb(190, 225, 255);
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        font-weight: 200;
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+}

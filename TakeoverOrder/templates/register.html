@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>机器人配置</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/login.css"/>
+    <script src="../static/js/register.js" type="text/javascript"></script>
+ 
+</head>
+<body>
+<div class="login-box">
+    <h2>合约管家</h2>
+    <form action="/register" enctype="multipart/form-data" method="post">
+        <div class="login-field">
+            <span style="color: aqua; size: 12px">API-KEY</span>
+            <input type="password" name="api_key" required=""/>
+        </div>
+        <div class="login-field">
+            <spqn style="color: aqua; size: 12px">API-秘钥</spqn>
+            <input type="password" name="secret_key" required=""/>
+        </div>
+        <div class="login-field">
+            <spqn style="color: aqua; size: 12px">API-密码</spqn>
+            <input type="password" name="passphrase" required=""/>
+        </div>
+        <div class="login-field">
+            <spqn style="color: aqua; size: 12px">选择通知APP</spqn>
+            <select type="text" name="notice" required="">
+                <option  value="DD" >钉钉通知</option>
+                <option  value="DC" >Discord</option>
+                <option  value="TG" >Telegram</option>
+            </select>
+        </div>
+        <div class="login-field">
+            <span style="color: aqua; size: 12px">钉钉网址、discord 网址、电报 token</span>
+            <input type="text" name="diaccess_token" required=""/>
+        </div>
+        <div class="login-field">
+            <spqn style="color: aqua; size: 12px">钉钉 输入关键词、discord输入 123，电报输入 chatid</spqn>
+            <input type="text" name="keyword" required=""/>
+        </div>
+        <div class="login-field">
+            <spqn style="color: aqua; size: 12px">原识别码:默认 admin</spqn>
+            <input type="text" name="old_user_name" required=""/>
+        </div>
+        <div class="login-field">
+            <spqn style="color: aqua; size: 12px">新识别码，请修改</spqn>
+            <input type="text" name="new_user_name" required=""/>
+        </div>
+        <div class="login-field">
+            <spqn style="color: aqua; size: 12px">缩小止损</spqn>
+            <select type="text" name="moveloss" required="">
+                <option  value="0" >禁用缩小</option>
+                <option  value="2" >启用缩小</option>
+            </select>
+        </div>
+        <input type="submit" value="提交" id="myloginlabel">
+    </form>
+</div>
+</body>
+</html>
