@@ -36,3 +36,4 @@ xx.xx.xx.xx是你的服务器公网IP 地址
 ![iShot_2023-04-21_20 09 07](https://user-images.githubusercontent.com/115059056/233632149-634a738c-a74b-44ef-b27a-16b2b9f2e9d6.jpg)
 ![iShot_2023-04-21_20 09 16](https://user-images.githubusercontent.com/115059056/233632154-a60ea663-a648-4d26-b321-38f4287a3591.jpg)
 ![iShot_2023-04-21_20 09 23](https://user-images.githubusercontent.com/115059056/233632160-af270958-b0b3-480f-9e30-459381e7614c.jpg)
+![iShot_2023-04-21_20 14 06](https://user-images.githubusercontent.com/115059056/233632691-81e53cd0-703a-4d92-9a8a-f29207ef63fd.jpg)
