@@ -32,3 +32,7 @@ xx.xx.xx.xx是你的服务器公网IP 地址
 
 你也可以下载文件内的浏览器插件，安装在谷歌或者微软浏览器上，可以方便的操作机器以及方便更多的进单方式
 
+
+![iShot_2023-04-21_20 09 07](https://user-images.githubusercontent.com/115059056/233632149-634a738c-a74b-44ef-b27a-16b2b9f2e9d6.jpg)
+![iShot_2023-04-21_20 09 16](https://user-images.githubusercontent.com/115059056/233632154-a60ea663-a648-4d26-b321-38f4287a3591.jpg)
+![iShot_2023-04-21_20 09 23](https://user-images.githubusercontent.com/115059056/233632160-af270958-b0b3-480f-9e30-459381e7614c.jpg)
